@@ -1,0 +1,26 @@
+
+;;;;; TODO LIST ;;;;;
+
+=============
+Short Term :
+=============
+
+- COMMENT AND CLEAN THE CODE ! make sure every function has a description
+
+=============
+Long Term :
+=============
+
+
+Implementation :
+
+- Use threads in order to run the algorithm in background, and not block the interface during the computations
+- "Expert" interface in order to be able to specify each complexity coefficient (maybe not, cf Florent's work)
+- Limit recursions in order to be able to process longer units without "stack overflow"
+- Use gn-chords to display gracenotes correctly, and treat them differently than a regular chord with offset (in particular, adapt get-cons-list function so that we differenciate grace notes and chords. Current implementation has to do that in order to get the same results when a grace note is selected in "chord" mode or in "group" mode)
+
+
+Research :
+
+- Adapt the algorithm to polyphony
+- Tempo curves
