@@ -61,7 +61,7 @@
    )
  (find-library "RQ"))
 
-(set-lib-release 1.0) 
+(set-lib-release 1.1) 
 
 
 (print "
