@@ -18,6 +18,10 @@ The quantization algorithm is a recursive, dynamic-programming, lazy algorithm. 
 
 OpenMusic 6.10 and higher.
 
+### Documentation
+
+See [Project Wiki](https://github.com/openmusic-project/RQ/wiki)
+
 ### Further reading
 
 The RQ transcription system is described in:
