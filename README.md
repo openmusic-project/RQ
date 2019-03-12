@@ -4,6 +4,9 @@
 The RQ library for OM proposes a new interactive approach for rhythm quantification. 
 In contrast with previous single-solution systems, RQ runs a graphical interface that allows to visualize and edit the transcriptions of the segmented input sequence.
 
+
+<img src="./docs/images/quant-system-interface.png">
+
 ### The k-best parsing
 
 The quantization algorithm is a recursive, dynamic-programming, lazy algorithm. It works by recursively subdividing segments into equal parts, and then aligning the input points to the closest segment boundary. The algorithm enumerates the subdivisions that give the best results, ranked according to a criterion that combines two quality measures :
@@ -14,6 +17,10 @@ The quantization algorithm is a recursive, dynamic-programming, lazy algorithm. 
 ### Compatibility 
 
 OpenMusic 6.10 and higher.
+
+### Documentation
+
+See [Project Wiki](https://github.com/openmusic-project/RQ/wiki)
 
 ### Further reading
 
