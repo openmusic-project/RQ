@@ -7,7 +7,7 @@ In contrast with previous single-solution systems, RQ runs a graphical interface
 
 <img src="./docs/images/quant-system-interface.png">
 
-A. Ycart, F. Jacquemars, J. Bresson — UMR STMS Ircam/CNRS/SU, 2015-2016
+A. Ycart, F. Jacquemard, J. Bresson — UMR STMS Ircam/CNRS/SU, 2015-2016
 
 ### The k-best parsing
 
