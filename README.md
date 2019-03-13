@@ -7,6 +7,8 @@ In contrast with previous single-solution systems, RQ runs a graphical interface
 
 <img src="./docs/images/quant-system-interface.png">
 
+A. Ycart, F. Jacquemars, J. Bresson — UMR STMS Ircam/CNRS/SU, 2015-2016
+
 ### The k-best parsing
 
 The quantization algorithm is a recursive, dynamic-programming, lazy algorithm. It works by recursively subdividing segments into equal parts, and then aligning the input points to the closest segment boundary. The algorithm enumerates the subdivisions that give the best results, ranked according to a criterion that combines two quality measures :
