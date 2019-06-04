@@ -34,11 +34,14 @@ The RQ transcription system is described in:
 More in-depth description of the algorithm can be found in:
 - Adrien Ycart, [Quantification rythmique dans OpenMusic](https://hal.inria.fr/hal-01202257), Master thesis, IRCAM.
 
+See also a [presentation of the library](https://medias.ircam.fr/embed/media/xac88c6) (in French).
+
+
 The algorithm is based on the algorithms described in: 
- - Liang Huang, David Chiang, [Better k-best parsing](http://www.cis.upenn.edu/~lhuang3/huang-iwpt-correct.pdf), _Proceedings of the Ninth International Workshop on Parsing Technology_. Association for Computational Linguistics.
+ - L. Huang, D. Chiang, [Better k-best parsing](http://www.cis.upenn.edu/~lhuang3/huang-iwpt-correct.pdf), _Proceedings of the Ninth International Workshop on Parsing Technology_. Association for Computational Linguistics.
 
 The segmentation algorithm is described in: 
-- A.C. Yang, Elaine Chew, Anja Volk, [A dynamic programming approach to adaptive tatum assignment for rhythm transcription](https://www.researchgate.net/publication/4207863), _Seventh IEEE International Symposium on Multimedia_, 2005.
+- A. C. Yang, E. Chew, A. Volk, [A dynamic programming approach to adaptive tatum assignment for rhythm transcription](https://www.researchgate.net/publication/4207863), _Seventh IEEE International Symposium on Multimedia_, 2005.
 
  More on rhythmic notation, rhythmic quantification and rhythm trees: 
  - http://repmus.ircam.fr/cao/rhythm/
