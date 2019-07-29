@@ -9,6 +9,8 @@
 .DS_Store
 
 # don't track auto-generated html's:
-/**/reference/*.*
+/**/reference/
+/**/reference-pages/
+
 *.lisp#
 *.zip
