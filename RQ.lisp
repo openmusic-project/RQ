@@ -57,7 +57,7 @@
 ; ("sub-pack-name" subpackage-lists class-list function-list class-alias-list)
 ;--------------------------------------------------
 (om::fill-library
- '(("RQ" nil (rq::rq) (rq::get-voice rq::get-k-best-list) nil)
+ '(("RQ" nil (rq::rq) (rq::get-rq-voice rq::get-k-best-list) nil)
    )
  (find-library "RQ"))
 
@@ -81,14 +81,14 @@
 
 (export '(
           rq
-          get-voice
+          get-rq-voice
           get-k-best-list
           ))
 
 ;To make these symbols usable in the OM package
 (import '(
           rq
-          get-voice
+          get-rq-voice
           get-k-best-list
           )
         :om)

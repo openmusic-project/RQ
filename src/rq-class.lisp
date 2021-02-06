@@ -44,7 +44,7 @@ Inputs :
 
 Double-click to open the quantification interface.
 
-To retrieve the quantified output, use the function get-voice
+To retrieve the quantified output, use the function get-rq-voice
 
 For instructions, tutorials and information : http://repmus.ircam.fr/cao/rq
 
@@ -102,7 +102,7 @@ For instructions, tutorials and information : http://repmus.ircam.fr/cao/rq
   (chord-seq self))
 
 
-(om::defmethod! get-voice ((rq rq) &optional (render t))
+(om::defmethod! get-rq-voice ((rq rq) &optional (render t))
                 :initvals '(nil t)
                 :indoc '("rq" "render")
                 :icon '(252)
