@@ -58,7 +58,7 @@
 				 (make-instance 'poly 
 						:voices (loop for n from 0 to (1- N) 
 							      append (mapcar #'(lambda (rtree tempo) (make-instance 'voice
-														    :tree (reducetree rtree)
+														    :tree (reduce-rt rtree)
 														    :chords  chords
 														    :tempo tempo))
 									     (nth n trees) (nth n tempi))))))))

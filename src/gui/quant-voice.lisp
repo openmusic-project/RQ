@@ -82,7 +82,7 @@
         (setq out (mapcar #'(lambda (sig tree) (append (list sig) (list tree))) sigs trees))
         (setq out (append (list '?) (list out)))
         (if render
-            (reducetree out)
+            (reduce-rt out)
           out)))))
 
 (defmethod get-tempo ((self quant-voice))
@@ -155,7 +155,7 @@ Second value is true iff more values can be computed"
                    (let ((tree (rq-to-omtree ktable input k nil nil prev-gracenotes path prev-input)))
                      (if (equal tree '(-1))
                          (list 1 tree)
-                       (reducetree (list 1 tree)))))
+                       (reduce-rt (list 1 tree)))))
              (null (queue-empty  (entry-candidates entry nil))))))
 
 (defmethod get-signature-of-group (self (inside quant-voice))
