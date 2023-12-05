@@ -61,7 +61,9 @@
    )
  (find-library "RQ"))
 
-(set-lib-release 1.1) 
+(unless (fboundp 'om::set-lib-release) (defmethod om::set-lib-release (version &optional lib) nil))
+
+(set-lib-release 1.3) 
 
 
 (print "
